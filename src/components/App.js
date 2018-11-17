@@ -1,13 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../App.css';
-import front from './front';
+import Front from './front';
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
-      <front />
+      <div className = "App">
+          <Front />
+      </div>
     );
-  };
-};
+  }
+}
 
 export default App;

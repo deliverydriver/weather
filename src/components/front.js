@@ -1,23 +1,24 @@
 import React from 'react';
-import logo from '../logo.svg';
+import '../App.css';
+import logo from './assets/logo.svg';
 
-const front = () => {
-  return(
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        Edit <code>src/App.js</code> and save to reload.
-      </p>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
-    </header>
+const Front = () => {
+  return (
+      <h2 className="Front">
+       <img src={logo} className="App-logo" alt="logo" />
+       <p>
+         Hello World!
+       </p>
+       <a
+         className="App-link"
+         href="https://github.com/deliverydriver"
+         target="_blank"
+         rel="noopener noreferrer"
+       >
+          Check me out.
+       </a>
+     </h2>
   );
-};
+}
 
-export default front;
+export default Front;
